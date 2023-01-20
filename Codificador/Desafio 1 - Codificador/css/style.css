@@ -1,0 +1,256 @@
+.principal {
+    background: #e5e5e5;
+    width: 100vh;
+}
+.cabecalho__logo {
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.caixa-esquerda {
+    background: none;
+    border: 0 none;
+    border-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    height: 275px;
+    margin-left: 125px;
+    margin-top: 10vh;
+    outline: 0;
+    position: absolute;
+    resize: none;
+    width: 650px;
+}
+
+textarea::placeholder {
+    color: #0a3871;
+}
+
+textarea {
+    color: #0a3871;
+}
+
+.caixa-direita {
+    background: #ffffff;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.35);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    height: 35vw;
+    margin-left: 30vw;
+    margin-top: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    width: 55vh;
+}
+
+.imagem-aviso {
+    margin-left: 150px;
+}
+
+.imagem-boneco {
+    margin-left: 35vw;
+    margin-top: 4rem;
+    position: absolute;
+    height: 13rem;
+}
+
+.imagem-texto {
+    margin-left: 35vw;
+    margin-top: 16rem;
+    position: absolute;
+    height: 5rem;
+}
+
+.texto-aviso {
+    color: #495057;
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ .imagem-aviso, .texto-aviso {
+    display: inline-block;
+    margin-top: 25rem;
+    position: relative;
+}
+
+.botoes {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 24px;
+}
+
+.botao-cripto {
+    background: #0a3871;
+    border: #0a3871;
+    border-radius: 16px;
+    height: 3rem;
+    margin-left: 15vh;
+    width: 328px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e5e5e5;
+}
+
+.botao-cripto:hover {
+    cursor: pointer;
+    background: #052051;
+    transition: .3s;
+}
+
+.botao-descripto {
+    background: #d8dfe8;
+    border: transparent;
+    border-radius: 16px;
+    color: #0a3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 3rem;
+    width: 328px;
+}
+
+.botao-descripto:hover {
+    cursor: pointer;
+    background: #aab2d5;
+    transition: .3s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .cabecalho__logo {
+        margin-bottom: 1.5rem;
+        margin-left: 1.75rem;
+        margin-top: 1.5rem;
+        height: 2rem;
+    }
+
+    .caixa-esquerda{
+        font-size: 1.75rem;
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+        height: 100px;
+        width: 300px;
+    }
+
+    .imagem-aviso {
+        margin-left: 3rem;
+    }
+
+    .imagem-aviso, .texto-aviso {
+        display: inline-block;
+        margin-top: 15rem;
+        position: relative;
+        font-size: .75rem;
+    }
+
+    .botoes {
+        flex-direction: row;
+    }
+
+    .botao-cripto {
+        margin-left: 1.5rem;
+        font-size: 12px;
+        width: 275px;
+    }
+
+    .botao-descripto {
+        margin-left: 1.5rem;
+        font-size: 12px;
+        width: 275px;
+    }
+
+    .caixa-direita {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 6rem;
+        margin-left: 3rem;
+        width: 580px;
+        height: 133px;
+    }
+    .imagem-boneco {
+        display: none;
+    }
+
+    .imagem-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 8rem;
+        margin-left: 15rem;
+    }
+
+}
+
+@media screen and (min-width: 325px) and (max-width: 767px){
+    .cabecalho__logo {
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        height: 2rem;
+    }
+
+    .caixa-esquerda{
+        font-size: 1.75rem;
+        margin-top: 0rem;
+        margin-left: 3rem;
+        height: 75px;
+        width: 300px;
+    }
+
+    .imagem-aviso {
+        margin-left: 3rem;
+    }
+
+    .imagem-aviso, .texto-aviso {
+        display: inline-block;
+        margin-top: 15rem;
+        position: relative;
+        font-size: .75rem;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .botao-cripto {
+        margin-left: 1.5rem;
+        font-size: 12px;
+        width: 275px;
+    }
+
+    .botao-descripto {
+        margin-left: 1.5rem;
+        font-size: 12px;
+        width: 275px;
+    }
+
+    .caixa-direita {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10rem;
+        margin-left: 3rem;
+        width: 275px;
+        height: 133px;
+    }
+    .imagem-boneco {
+        display: none;
+    }
+
+    .imagem-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 12rem;
+        margin-left: 5rem;
+    }
+}

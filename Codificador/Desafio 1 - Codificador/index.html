@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codificador</title>
+        <link rel="icon" href="./imagens/encryption.png">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/principal.css">
+        <link rel="stylesheet" href="./css/texto.css">
+    </head>
+    <body class="principal">
+        <main>
+            <img src="./imagens/logoAlura.png" alt="Logotipo Alura" class="cabecalho__logo">
+            <section>
+                <textarea class="caixa-esquerda" cols="30" rows="10" placeholder="Digite seu texto" autofocus></textarea>
+                <img src="./imagens/Vector.png" alt="Simbolo alerta" class="imagem-aviso">
+                <p class="texto-aviso">Apenas letras minúsculas e sem acento!</p>
+                <textarea cols="30" rows="10" class="caixa-direita" placeholder="O que vai aparecer aqui?" disabled></textarea>
+                
+            </section>
+            <section class="botoes">
+                <button class="botao-cripto" onclick="criptografar()">Criptografar</button>
+                <button class="botao-descripto" onclick="descriptografar()">Descriptografar</button>
+            </section>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
