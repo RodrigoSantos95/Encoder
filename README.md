@@ -1,4 +1,4 @@
-# Front-End Projects | Projetos Front-end 💻👨‍💻
+# Front-End Projects - Codifier | Projetos Front-end - Codificador 💻👨‍💻
 Hello! Here are some projects developed for my Portfolio | Olá, Aqui estão meus projetos desenvolvidos para meu Portfólio
 
 Be connected on LinkedIn [here](https://www.linkedin.com/in/rodrigo-costa-santos/) | Acesse meu LinkedIn [aqui](https://www.linkedin.com/in/rodrigo-costa-santos/)
