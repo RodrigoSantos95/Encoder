@@ -1,4 +1,4 @@
-# Front-End Projects - Encoder | Projetos Front-end - Codificador 💻👨‍💻
+# Encoder | Codificador 💻👨‍💻
 Hello! Here is the encoder developed during my Front-End course on Alura powered by Oracle | 
 
 Olá, Aqui está o codificador desenvolvido durante minha formação de Front-End pela Alura em parceria com a Oracle
